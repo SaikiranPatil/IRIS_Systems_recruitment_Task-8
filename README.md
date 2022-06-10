@@ -29,3 +29,7 @@ volumes:
   mongo-data:
     driver: local
 ```
+Then in command prompt
+```
+docker-compose -f mongo.yaml up
+```
